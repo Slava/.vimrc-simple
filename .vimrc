@@ -15,6 +15,8 @@ Bundle "altercation/vim-colors-solarized"
 Bundle "groenewege/vim-less"
 Bundle "elzr/vim-json"
 Bundle "tpope/vim-markdown"
+Bundle "Lokaltog/vim-easymotion"
+Bundle "ervandew/supertab"
 
 " Colors
 set t_Co=256
@@ -36,14 +38,14 @@ set ruler
 " Highlight current line
 set cursorline
 
+" Leader key is comma
+let mapleader = ","
+
 " Search tweaks
 set hlsearch
 set incsearch
 " Kill current search
 nnoremap <silent> <Leader>/ :nohlsearch<CR>
-
-" Leader key is comma
-let mapleader = ","
 
 " Show/hide invisibles by <leader>l
 nmap <leader>l :set list!<CR>
