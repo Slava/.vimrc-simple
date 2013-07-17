@@ -126,3 +126,18 @@ if has("gui_running")
   set guioptions-=L
 endif
 
+" Tweak ESC to be 'jk' typed fast
+imap jk <C-C>
+" And disable ESC so I don't press it
+imap <ESC> <nop>
+
+" Disable arrow keys. That's not Emacs, that's why.
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+imap <up> <nop>
+imap <down> <nop>
+imap <left> <nop>
+imap <right> <nop>
+
